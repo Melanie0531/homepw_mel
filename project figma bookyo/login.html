@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="login.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="left-section">
+      <!-- Logo --> 
+      <div class="logo">
+        <img src="bookyo.png" alt="logo-bookyo" width="70" height="70" />
+      </div>
+
+      <!-- Welcome Text -->
+      <div class="welcome">Welcome !!</div>
+
+      <!-- Tabs -->
+      <div class="tabs">
+        <div class="active">Login</div>
+        <div>
+          <a href="register.html">Sign Up</a>
+        </div>
+      </div>
+
+      <form action="home.html" class="form-Sign-up">
+         <!-- Input Fields -->
+      <div class="input-group">
+         <i class="fa fa-user"></i>
+         <input type="text" placeholder="Username" required/>
+       </div>
+       <div class="input-group">
+         <i class="fa fa-lock"></i>
+         <input type="password" placeholder="Password" required />
+         <i class="fa fa-eye"></i>
+       </div>
+ 
+       <!-- Options -->
+       <div class="options">
+         <label>
+           <input type="checkbox" />
+           Remember Me
+         </label>
+         <a href="#">Forgot Password?</a>
+       </div>
+ 
+       <!-- Buttons -->
+       <div class="buttons">
+         <button type="submit" class="back">Back</button>
+         <button type="submit" class="login">Login</button>
+       </div>
+      </form>
+
+      <!-- Social Login -->
+      <div class="social-login">
+        <p>or Sign Up With</p>
+        <div class="icons">
+          <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Faccountscenter.instagram.com%2Fpassword_and_security%2Flogin_activity%2F%3F__coig_login%3D1">
+            <img src="instagram.png" alt="Instagram logo" width="30" height="30" />
+          </a>
+          <a href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Futm_source%3Dsign_in_no_continue%26pli%3D1&ec=GAlAwAE&hl=in&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S252256027%3A1724631451322880&ddm=0">
+            <img src="google.png" alt="Google logo" width="30" height="30" />
+          </a>
+          <a href="https://www.facebook.com/login.php">
+            <img src="facebook.png" alt="Facebook logo" width="30" height="30" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Section -->
+    <div class="right-section">
+      <div class="illustration">
+        <img src="logo login.png" alt="gambar ilustrasi" width="300" height="300" />
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    
+}
+.container {
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border: 2px solid #1a73e8;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+
+}
+.form-container {
+    flex: 1;
+    padding: 20px;
+}
+.form-container h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.form-container p {
+    margin-bottom: 20px;
+}
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-container input[type="checkbox"] {
+    margin-right: 10px;
+}
+.form-container .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.form-container .buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+.form-container .buttons .back {
+    background-color: #b0bec5;
+    color: #fff;
+}
+.form-container .buttons .submit {
+    background-color: #1a73e8;
+    color: #fff;
+}
+.form-container .social-login {
+    text-align: center;
+    margin-top: 20px;
+}
+.form-container .social-login img {
+    width: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+.update {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.register {
+    background-color: #1a73e8;
+}
